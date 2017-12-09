@@ -1,0 +1,99 @@
+/*Copyright (C) 2012  Sergio Martín Moreno.
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA-*/
+
+/*.ui-dialog {
+      opacity: 0.9;
+}*/
+
+.fakeBtAdd {
+    float:right;
+    width:30px;
+}
+
+.userToolBar {
+	font-size: 20pt;
+	width: 100%;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+.userToolBarInFolder {
+	font-size: 20pt;
+	width: 100%;
+	border: 1px solid #CCC;
+	background-color: #ffd9b3;
+}
+
+.fakeCanvasInFolder {
+	/*margin:7px;*/
+	width: 100%;
+	height: 400px;
+	border: 1px solid #CCC;
+	overflow: auto;
+	background-color: #efffffFF;
+}
+
+.textAreaDownloadData {
+	height: 225px;
+	width: 100%;
+	box-sizing:border-box
+}
+
+.buttonItemInFolder {
+	float:left;
+	text-align:center;
+	font-size:7pt;
+	font-weight: bold;
+	font-family: arial;
+	/*background-color: #00000010;*/
+	background-color: #FFFFFF;
+	/*border-color: #99CCFF;*/
+	border-color: #00000033;
+	border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    margin:7px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+}
+
+.buttonItemInFolderSelected {
+	float:left;
+	text-align:center;
+	font-size:7pt;
+	font-weight: bold;
+	font-family: arial;
+	/*background-color: #00000010;*/
+	background-color: #ff8080;/*#FF0000;*/
+	/*border-color: #99CCFF;*/
+	/*border-color: #00000033;
+	border-style: solid;
+    border-width: 1px;*/
+    border-radius: 15px;
+    margin:7px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+}
+
+.floatBox{
+	margin: 7px;
+	width: 200px;
+	height: 90px;
+	border: 1px solid #990000;
+}
